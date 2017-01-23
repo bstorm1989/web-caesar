@@ -6,7 +6,7 @@ def encrypt(text, rot):
     return message
 
 def alphabet_position(char):
-    newchar = str.lower(char)
+    newchar = unicode.lower(char)
     CharIndex = alphabet.index(newchar)
     return CharIndex
 
